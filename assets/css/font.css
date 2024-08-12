@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face 
+{
+font-family: 'neue';
+src:    url('fonts/neuemontreal.woff2') format('woff2'),
+        url('fonts/neuemontreal.woff') format('woff'),
+        url('fonts/neuemontreal.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face 
+{
+font-family: 'neueBold';
+src:    url('fonts/neuemontrealBold.woff2') format('woff2'),
+        url('fonts/neuemontrealBold.woff') format('woff'),
+        url('fonts/neuemontrealBold.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}

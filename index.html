@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKEA</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="shortcut icon" sizes="any" href="https://www.ikea.com/kr/ko/static/favicon.838d8a3778e4d716eb72.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.ikea.com/global/assets/logos/brand/ikea.svg">
+  
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script> 
+    <script src="./assets/js/custom.js"></script>
+    <!-- <script src="./assets/js/jquery-3.7.1.min.js"></script> -->
+    <!-- <script src="./assets/js/swiper-bundle.min.js"></script> -->
+    
+</head>
+
+    
+<body>
+    <i class="cursor-basic"></i>
+
+</nav>
+
+<div class="inner">
+    <header id="header">
+    
+        <h1 class="logo-main">
+            <a href="">
+                <img src="https://www.ikea.com/global/assets/logos/brand/ikea.svg" alt="">
+            </a>
+        </h1>
+    
+        <div class="menu">
+            <button class="btn-menu">
+                Menu
+            </button>
+        </div>
+    
+        <nav class="gnb">
+                <div class="col left">
+                    <div class="summary-area">
+                        <h3 class="headline small-text">
+                            summary
+                        </h3>
+                        <ul class="summary-list big-text">
+                            <li class="summary-item">
+                                <a href="">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="summary-item">
+                                <a href="">
+                                    About
+                                </a>
+                            </li>
+                            <li class="summary-item">
+                                <a href="">
+                                    Projects
+                                </a>
+                            </li>
+                            <li class="summary-item">
+                                <a href="">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="addr-area small-text">
+                        <h3 class="headline small-text">
+                            ADDRESS
+                        </h3>
+                        <p class="location">
+                            <span>420, Gwonyul-daero</span>
+                            <span>Deogyang-gu</span>
+                            <span>Goyang-Si</span>
+                        </p>
+    
+                    </div>
+    
+                </div>
+                <div class="col mid">
+                    <div class="product-area">
+                        <h3 class="headline small-text">
+                            products
+                        </h3>
+                        <ul class="product-list big-text">
+                            <li class="product-item">
+                                <a href="">
+                                    Kitchen
+                                </a>
+                            </li>
+                            <li class="product-item">
+                                <a href="">
+                                    Bed Room
+                                </a>
+                            </li>
+                            <li class="product-item">
+                                <a href="">
+                                    Dining
+                                </a>
+                            </li>
+                            <li class="product-item">
+                                <a href="">
+                                    Outdoor
+                                </a>
+                            </li>
+                            <li class="product-item">
+                                <a href="">
+                                    Home Office
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="contact-area small-text">
+                        <h3 class="headline">
+                            contact
+                        </h3>
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <a href="1670-4532" class="tel">TEL : 1670-4532</a>
+                                <a href="106-86-82871" class="mobile">MOBILE : 106-86-82871</a>
+                                <!-- <span class="mail">asdsa@apple.com</span> -->
+                            </li>
+                        </ul>
+    
+                    </div>
+    
+                </div>
+                <div class="col right small-text">
+    
+                        <div class="sns-area">
+                            <h3 class="headline">
+                                follow
+                            </h3>
+                            <ul class="sns-list">
+                                <li class="sns-item">
+                                    <span class="">Facebook</span>
+                                </li>
+                                <li class="sns-item">
+                                    <span class="">Instagram</span>
+                                </li>
+                                <li class="sns-item">
+                                    <span class="">Youtube</span>
+                                </li>
+                                <li class="sns-item">
+                                    <span class="">Kakao</span>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="video-area">
+    
+                            <div class="video-box">
+                                <video src="./assets/images/video/ikea-video1.mp4" class="" autoplay muted loop>
+                            </div>
+                            <div class="text-box">
+                                <span class="name">IKEA EXPLORATIONS</span>
+                                <span class="time">0:49</span>
+                            </div>
+    
+                        </div>
+    
+                        <h3 class="logo">
+                            <img src="https://www.ikea.com/global/assets/logos/brand/ikea.svg" alt="">
+                        </h3>
+    
+                </div>
+    
+        </nav>
+    
+        </header>
+    
+        <main id="main">
+    
+            <section class="sc-intro">
+                <div class="video-container">
+                    <video src="https://www.ikea.com/global/en/images/Startpage_hero_opt_820_4b3d0cc7b5.mp4" class="bg" autoplay muted loop>
+                    </video>
+                </div>
+                <h2 class="logo-fantoni">
+                    <div class="word">
+                        <span class="char a">I</span>
+                        <span class="char b">K</span>
+                        <span class="char c">E</span>
+                        <span class="char d">A</span>
+                    </div>
+                </h2>
+                <div class="text">
+                    <span>Home is</span>
+                    <span>the most important place</span>
+                    <span>in the world.</span>
+                </div>
+            </section>
+            <section class="sc-about">
+                <div class="top">
+                    <p class="line">
+                        <span class="first">What started as a tiny mail order company in rural Sweden</span>
+                        <span class="">has now become a global home furnishing brand that brings affordability,</span>
+                        <span class="">design and comfort to people all over the world. We may have come a long way since our humble beginnings,</span>
+                        <span class="">but our vision remains the same: to create a better everyday life for the many people.</span>
+                    </p>
+    
+                </div>
+                <div class="bottom">
+                    <button class="btn-about">
+                        <div class="wrap"> <!-- oh -->
+                            <div class="icon">
+                                <span >ABOUT</span>
+                                <span class="ic-arrow">
+                                    <svg viewBox="0 0 23 23">
+                                        <path d="M0.888916 20.9344L18.2622 3.36366H1.86769V0.888916H22.6667V21.9243H20.2198V4.84851L2.60178 22.6667L0.888916 20.9344Z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="icon">
+                                <span >ABOUT</span>
+                                <span class="ic-arrow">
+                                    <svg viewBox="0 0 23 23">
+                                        <path d="M0.888916 20.9344L18.2622 3.36366H1.86769V0.888916H22.6667V21.9243H20.2198V4.84851L2.60178 22.6667L0.888916 20.9344Z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+    
+                        </div>
+                    </button>
+                    <div class="text">
+                        <p class="line">
+                            <span class="first">“To create a better everyday life for the many people.”</span>
+                            <span>This vision goes beyond home furnishing. We want to have a positive impact on the world – from the communities where we source our</span>
+                            <span>raw materials to the way our products help our customers live a more sustainable life at home.</span>
+                        </p>
+    
+                    </div>
+                </div>
+            </section>
+            <section class="sc-location">
+                <i class="cursor-video"></i>
+                <div class="col-left">
+                    <div class="video-box">
+                        <video src="./assets/images/video/loca1.mp4" autoplay loop></video>
+                    </div>
+                    <div class="text-box">
+                        <span>Do it Yourself , Make Your Place Better.</span>
+                        <!-- <span>2:30</span> -->
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div class="img-box">
+                        <img src="https://www.ikea.com/images/e8/c4/e8c455912b02c378899f173fd431d883.jpg?f=s" alt="">
+                    </div>
+                    <div class="text-box">
+                        <span>Check each store's location</span>
+                    </div>
+                </div>
+            </section>
+            <div class="philo-wrapper"> <!-- 600 -->
+                <div class="sticky"> <!-- 고정 -->
+                    <section class="sc-philo">
+                        <div class="video-container">
+                            <video src="./assets/images/video/philo3.mp4" class="bg" ></video>
+                        </div>
+                        <div class="text-container">
+                            <div class="top">
+                                <p class="line">TOGETHER</p>
+                                <p class="line">ALL OVER THE</p>
+                                <p class="line">WORLD</p>
+                            </div>
+                            <div class="bottom">
+                                <p class="line">TO OFFER </p>
+                                <span class="scroll">
+                                    <p class="line">WELL-DESGINED</p>
+                                    <p class="line">FUCTIONAL</p>
+                                    <p class="line">REASONABLE</p>
+                                </span>
+                                <p class="line">PRODUCT</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <section class="sc-product">
+                <div class="container">
+                    <ul class="prd-list">
+                        <li class="prd-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/IKEA03.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <span class="title big-text">
+                                        KITCHEN
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="prd-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/IKEA B (1).jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <span class="title big-text">
+                                        BED ROOM
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="prd-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/IKEA08 (1).jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <span class="title big-text">
+                                        DINING
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="prd-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/IKEA05.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <span class="title big-text">
+                                        OUTDOOR
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="prd-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/images/IKEA16.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <span class="title big-text">
+                                        HOME  OFFICE
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="gauge-bar">
+                        <span class="percent"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-project">
+                <div class="col-left">
+                    <div class="text">
+                        <p class="line">IKEA, awarded with The Compass of Gold for its outstanding career achievement.</p>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div class="text">
+                        <p class="line">Our fascination with life at home is what makes us IKEA. Every year, we ask tens of thousands of people to share their thoughts and feelings about where they live.</p>
+                    </div>
+                    <button class="btn-progetti">
+                        <div class="wrap"> <!-- oh -->
+                            <div class="icon">
+                                <span >PROJECTS</span>
+                                <span class="ic-arrow">
+                                    <svg viewBox="0 0 23 23">
+                                        <path d="M0.888916 20.9344L18.2622 3.36366H1.86769V0.888916H22.6667V21.9243H20.2198V4.84851L2.60178 22.6667L0.888916 20.9344Z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="icon">
+                                <span >PROJECTS</span>
+                                <span class="ic-arrow">
+                                    <svg viewBox="0 0 23 23">
+                                        <path d="M0.888916 20.9344L18.2622 3.36366H1.86769V0.888916H22.6667V21.9243H20.2198V4.84851L2.60178 22.6667L0.888916 20.9344Z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+    
+                        </div>
+                    </button>
+                </div>
+            </section>
+            <section class="sc-visual">
+                <div class="swiper container"dir="rtl">
+                    <ul class="swiper-wrapper slide-list a">
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (3).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (4).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (5).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (6).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (7).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (8).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (9).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (10).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA B (11).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA01.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA02.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA03.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA04.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA04 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA05.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA05 (1).jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper container" dir="ltr">
+                    <ul class="swiper-wrapper slide-list b" >
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA06 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA06.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA07 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA07.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA08.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA09.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA02 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA10.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA10 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA11.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA11 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA12 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA12.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA13 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA12.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA14 (1).jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA14.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide slide-item">
+                            <img src="./assets/images/IKEA08 (1).jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+        </main>
+    
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="summary-area">
+                    <h3 class="footer-headline">
+                       HELP
+                    </h3>
+                    <ul class="summary-list">
+                        <li class="summary-item">
+                            Customer Service
+                        </li>
+                        <li class="summary-item">
+                            FAQ
+                        </li>
+                        <li class="summary-item">
+                            Contact Us
+                        </li>
+                        <li class="summary-item">
+                            Delivery Tracking
+                        </li>
+                        <li class="summary-item">
+                            Returns and Claims
+                        </li>
+                        <li class="summary-item">
+                            Guarantees
+                        </li>
+    
+                    </ul>
+                </div>
+                <div class="products-area">
+                    <h3 class="footer-headline">
+                        SHOP
+                    </h3>
+                    <ul class="sns-list">
+                        <li class="sns-item">
+                            How to Shop
+                        </li>
+                        <li class="sns-item">
+                            Phone Order
+                        </li>
+                        <li class="sns-item">
+                            IKEA for Business
+                        </li>
+                        <li class="sns-item">
+                            IKEA App
+                        </li>
+                        <li class="sns-item">
+                            Online Planning
+                        </li>
+                        <li class="sns-item">
+                            Product Tip/Guide
+                        </li>
+                        <li class="sns-item">
+                            Finance Option
+                        </li>
+                    </ul>
+                </div>
+                <div class="sns-area">
+                    <h3 class="footer-headline">
+                        THIS is IKEA
+                    </h3>
+                    <ul class="sns-list">
+                        <li class="sns-item">
+                            About Us
+                        </li>
+                        <li class="sns-item">
+                            Life at Home
+                        </li>
+                        <li class="sns-item">
+                            Sustainable Everyday
+                        </li>
+                        <li class="sns-item">
+                            Newsroom
+                        </li>
+                        <li class="sns-item">
+                            Working at IKEA
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3 class="headline">
+                        CONTACT US
+                    </h3>
+                    <a href="" class="mail">
+                        TEL : 1670-4532
+                    </a>
+                </div>
+            </div>
+    
+            <div class="slide-text">
+                <p class="line">
+                    IKEAIKEAIKEAIKEAIKEAIKEAIKEAIKEA
+                </p>
+    
+            </div>
+        </footer>
+</div>
+    
+</body>
+</html>

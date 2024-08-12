@@ -1,0 +1,58 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .scroll-hidden{
+    overflow: hidden;
+  }
+
+.video-container{}
+.video-container:hover{}
+  
+.cursor-basic.off{
+  display: none;
+}
+.cursor-basic{
+  /* display: none; */
+  display: block;
+  z-index: 102;
+  width: 10px;
+  height: 10px;
+  background: #D2E1FF;
+  border-radius: 100%;
+  pointer-events: none;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+.cursor-basic.on{
+  display: block;
+}
+.cursor-video{
+  /* position: absolute; */
+  position: fixed;
+  display: none;
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  border-radius: 100%;
+  pointer-events: none;
+  z-index: 101;
+  transform: translate(-50%, -50%);
+}
+.cursor-video.on{
+  display: block;
+  z-index: 100;
+}
+.cursor-video::after{
+  content: 'play';
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
